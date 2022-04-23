@@ -4,7 +4,18 @@
 
 # Arrays are lists of things
 
+# favortite_foods = [
+#     "tacos", "pizza", "ice cream"]
+#     puts favortite_foods
+
+# we_have_to_go_back = [4,8,15,16,23,42]
+# puts we_have_to_go_back
+
 # Accessing the array
+
+mixed_array = ["tacos", 3 , true]
+puts mixed_array
+
 
 # Add to the array
 
