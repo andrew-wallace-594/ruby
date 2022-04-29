@@ -15,3 +15,26 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_list = ["milk", "eggs", "bacon"]
+
+friends_list = ["beer", "cookies", "apples", "eggs"]
+
+joint_list = my_list + friends_list
+# puts joint_list
+
+sorted_list = joint_list.sort
+# puts sorted_list
+
+no_repeats__sorted_list = sorted_list.uniq
+# puts no_repeats__sorted_list
+
+puts "buy #{no_repeats__sorted_list[0]}"
+puts "buy #{no_repeats__sorted_list[1]}"
+puts "buy #{no_repeats__sorted_list[2]}"
+puts "buy #{no_repeats__sorted_list[3]}"
+puts "buy #{no_repeats__sorted_list[4]}"
+puts "buy #{no_repeats__sorted_list[5]}"
+
+# puts (my_list + friends_list).sort.uniq 
+
